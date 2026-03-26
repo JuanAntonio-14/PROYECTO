@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    margin: 40px 0;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 0 5% 5% 5%;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.vitrina {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.tarjeta-trofeo {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.tarjeta-trofeo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 77, 152, 0.15);
+    border-color: #004D98;
+}
+
+.foto-trofeo {
+    background: #f8f9fa;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-trofeo img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.info-trofeo {
+    padding: 20px;
+    text-align: left;
+}
+
+.info-trofeo h2 {
+    margin: 0;
+    color: #004D98;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #A50044;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.años {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.btn-volver {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 15px 40px;
+    background-color: #A50044;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-volver:hover {
+    background-color: #004D98;
+    transform: scale(1.05);
+}

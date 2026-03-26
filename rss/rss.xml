@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias del FC Barcelona</title>
+        <link>https://www.fcbarcelona.com</link>
+        <description>Últimas noticias del FC Barcelona</description>
+        <language>Español</language>
+        <copyright>FC Barcelona</copyright>
+        <category>Deportes</category>
+
+        <item>
+            <title>Victoria del FC Barcelona en LaLiga</title>
+            <link>https://www.fcbarcelona.com/es/futbol/primer-equipo/noticias/victoria-laliga</link>
+            <description>El FC Barcelona consigue una importante victoria en casa que lo mantiene en la lucha por el título.</description>
+            <pubDate>Mon, 23 Mar 2026, 21:00:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Nuevo fichaje para reforzar la plantilla</title>
+            <link>https://www.fcbarcelona.com/es/futbol/fichajes/nuevo-jugador</link>
+            <description>El club anuncia la incorporación de un nuevo jugador para fortalecer el equipo esta temporada.</description>
+            <pubDate>Tue, 24 Mar 2026, 18:30:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title>Preparación para el próximo partido europeo</title>
+            <link>https://www.fcbarcelona.com/es/futbol/champions/previa-partido</link>
+            <description>El equipo se entrena intensamente de cara a su próximo compromiso en competición europea.</description>
+            <pubDate>Wed, 25 Mar 2026, 10:00:00 +0100</pubDate>
+        </item>
+
+    </channel>
+</rss>
